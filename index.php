@@ -1,4 +1,5 @@
 <?php
+
 require 'vendor/autoload.php';
 use David\Bootstrap\Request;
 
@@ -10,7 +11,6 @@ $controller = $request->getParam('controller') ?? 'page';
 if ($controller == "") {
 	$controller = 'page';
 }
-// var_dump($controller);
 // construimos el nombre completo del controlador
 $controller = ucfirst($controller) . 'Controller';
 $controller = 'David\\Blog\Controller\\'. $controller;
