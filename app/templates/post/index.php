@@ -21,7 +21,7 @@
 
 		
 	<table>
-		<form action="<?='addPost/'?>" method="POST">
+		<form action="<?='post/addPost/'?>" method="POST">
 			<tr>
 				<td></td>
 			</tr>
